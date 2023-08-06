@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1A0545D2A702ADC004A9361 /* AliWeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0545C2A702ADC004A9361 /* AliWeatherAppApp.swift */; };
+		A1A0545F2A702ADC004A9361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0545E2A702ADC004A9361 /* ContentView.swift */; };
+		A1A054612A702ADE004A9361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A054602A702ADE004A9361 /* Assets.xcassets */; };
+		A1A054652A702ADE004A9361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A054642A702ADE004A9361 /* Preview Assets.xcassets */; };
+		A1A0546F2A702ADF004A9361 /* AliWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0546E2A702ADF004A9361 /* AliWeatherAppTests.swift */; };
+		A1A054792A702ADF004A9361 /* AliWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A054782A702ADF004A9361 /* AliWeatherAppUITests.swift */; };
+		A1A0547B2A702ADF004A9361 /* AliWeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0547A2A702ADF004A9361 /* AliWeatherAppUITestsLaunchTests.swift */; };
+		A1A054892A72402F004A9361 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A054882A72402F004A9361 /* LocationManager.swift */; };
+		A1A0548C2A72D68B004A9361 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0548B2A72D68B004A9361 /* Welcome.swift */; };
+		A1A0548E2A738820004A9361 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0548D2A738820004A9361 /* LoadingView.swift */; };
+		A1A054902A7B817E004A9361 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0548F2A7B817E004A9361 /* WeatherManager.swift */; };
+		A1A054922A7B8613004A9361 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A054912A7B8613004A9361 /* WeatherView.swift */; };
+		A1A054942A7B868C004A9361 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A054932A7B868C004A9361 /* ModelData.swift */; };
+		A1A054962A7B86AC004A9361 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = A1A054952A7B86AC004A9361 /* weatherData.json */; };
+		A1A054982A7B873B004A9361 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A054972A7B873B004A9361 /* Extensions.swift */; };
+		A1A9B1A72A7E2CB6008F6EC5 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A9B1A62A7E2CB6008F6EC5 /* WeatherRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1A0546B2A702ADF004A9361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A054512A702ADC004A9361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A054582A702ADC004A9361;
+			remoteInfo = AliWeatherApp;
+		};
+		A1A054752A702ADF004A9361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A054512A702ADC004A9361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A054582A702ADC004A9361;
+			remoteInfo = AliWeatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1A054592A702ADC004A9361 /* AliWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A0545C2A702ADC004A9361 /* AliWeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliWeatherAppApp.swift; sourceTree = "<group>"; };
+		A1A0545E2A702ADC004A9361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1A054602A702ADE004A9361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A054622A702ADE004A9361 /* AliWeatherApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AliWeatherApp.entitlements; sourceTree = "<group>"; };
+		A1A054642A702ADE004A9361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1A0546A2A702ADF004A9361 /* AliWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A0546E2A702ADF004A9361 /* AliWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliWeatherAppTests.swift; sourceTree = "<group>"; };
+		A1A054742A702ADF004A9361 /* AliWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A054782A702ADF004A9361 /* AliWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliWeatherAppUITests.swift; sourceTree = "<group>"; };
+		A1A0547A2A702ADF004A9361 /* AliWeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliWeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1A054882A72402F004A9361 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A1A0548B2A72D68B004A9361 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		A1A0548D2A738820004A9361 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A1A0548F2A7B817E004A9361 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		A1A054912A7B8613004A9361 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		A1A054932A7B868C004A9361 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A1A054952A7B86AC004A9361 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		A1A054972A7B873B004A9361 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1A9B1A62A7E2CB6008F6EC5 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A054562A702ADC004A9361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A054672A702ADF004A9361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A054712A702ADF004A9361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A054502A702ADC004A9361 = {
+			isa = PBXGroup;
+			children = (
+				A1A0545B2A702ADC004A9361 /* AliWeatherApp */,
+				A1A0546D2A702ADF004A9361 /* AliWeatherAppTests */,
+				A1A054772A702ADF004A9361 /* AliWeatherAppUITests */,
+				A1A0545A2A702ADC004A9361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A0545A2A702ADC004A9361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A054592A702ADC004A9361 /* AliWeatherApp.app */,
+				A1A0546A2A702ADF004A9361 /* AliWeatherAppTests.xctest */,
+				A1A054742A702ADF004A9361 /* AliWeatherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A0545B2A702ADC004A9361 /* AliWeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1A9B1A52A7E2C93008F6EC5 /* Components */,
+				A1A0548A2A72417F004A9361 /* Views */,
+				A1A054872A72400E004A9361 /* Managers */,
+				A1A0545C2A702ADC004A9361 /* AliWeatherAppApp.swift */,
+				A1A054602A702ADE004A9361 /* Assets.xcassets */,
+				A1A054622A702ADE004A9361 /* AliWeatherApp.entitlements */,
+				A1A054632A702ADE004A9361 /* Preview Content */,
+				A1A054972A7B873B004A9361 /* Extensions.swift */,
+			);
+			path = AliWeatherApp;
+			sourceTree = "<group>";
+		};
+		A1A054632A702ADE004A9361 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1A054642A702ADE004A9361 /* Preview Assets.xcassets */,
+				A1A054932A7B868C004A9361 /* ModelData.swift */,
+				A1A054952A7B86AC004A9361 /* weatherData.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1A0546D2A702ADF004A9361 /* AliWeatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A0546E2A702ADF004A9361 /* AliWeatherAppTests.swift */,
+			);
+			path = AliWeatherAppTests;
+			sourceTree = "<group>";
+		};
+		A1A054772A702ADF004A9361 /* AliWeatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A054782A702ADF004A9361 /* AliWeatherAppUITests.swift */,
+				A1A0547A2A702ADF004A9361 /* AliWeatherAppUITestsLaunchTests.swift */,
+			);
+			path = AliWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		A1A054872A72400E004A9361 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A1A054882A72402F004A9361 /* LocationManager.swift */,
+				A1A0548F2A7B817E004A9361 /* WeatherManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A1A0548A2A72417F004A9361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1A0545E2A702ADC004A9361 /* ContentView.swift */,
+				A1A0548B2A72D68B004A9361 /* Welcome.swift */,
+				A1A0548D2A738820004A9361 /* LoadingView.swift */,
+				A1A054912A7B8613004A9361 /* WeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1A9B1A52A7E2C93008F6EC5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A1A9B1A62A7E2CB6008F6EC5 /* WeatherRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A054582A702ADC004A9361 /* AliWeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A0547E2A702ADF004A9361 /* Build configuration list for PBXNativeTarget "AliWeatherApp" */;
+			buildPhases = (
+				A1A054552A702ADC004A9361 /* Sources */,
+				A1A054562A702ADC004A9361 /* Frameworks */,
+				A1A054572A702ADC004A9361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliWeatherApp;
+			productName = AliWeatherApp;
+			productReference = A1A054592A702ADC004A9361 /* AliWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1A054692A702ADF004A9361 /* AliWeatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A054812A702ADF004A9361 /* Build configuration list for PBXNativeTarget "AliWeatherAppTests" */;
+			buildPhases = (
+				A1A054662A702ADF004A9361 /* Sources */,
+				A1A054672A702ADF004A9361 /* Frameworks */,
+				A1A054682A702ADF004A9361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A0546C2A702ADF004A9361 /* PBXTargetDependency */,
+			);
+			name = AliWeatherAppTests;
+			productName = AliWeatherAppTests;
+			productReference = A1A0546A2A702ADF004A9361 /* AliWeatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1A054732A702ADF004A9361 /* AliWeatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A054842A702ADF004A9361 /* Build configuration list for PBXNativeTarget "AliWeatherAppUITests" */;
+			buildPhases = (
+				A1A054702A702ADF004A9361 /* Sources */,
+				A1A054712A702ADF004A9361 /* Frameworks */,
+				A1A054722A702ADF004A9361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A054762A702ADF004A9361 /* PBXTargetDependency */,
+			);
+			name = AliWeatherAppUITests;
+			productName = AliWeatherAppUITests;
+			productReference = A1A054742A702ADF004A9361 /* AliWeatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A054512A702ADC004A9361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A1A054582A702ADC004A9361 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A1A054692A702ADF004A9361 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A1A054582A702ADC004A9361;
+					};
+					A1A054732A702ADF004A9361 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A1A054582A702ADC004A9361;
+					};
+				};
+			};
+			buildConfigurationList = A1A054542A702ADC004A9361 /* Build configuration list for PBXProject "AliWeatherApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A054502A702ADC004A9361;
+			productRefGroup = A1A0545A2A702ADC004A9361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A054582A702ADC004A9361 /* AliWeatherApp */,
+				A1A054692A702ADF004A9361 /* AliWeatherAppTests */,
+				A1A054732A702ADF004A9361 /* AliWeatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A054572A702ADC004A9361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A054652A702ADE004A9361 /* Preview Assets.xcassets in Resources */,
+				A1A054962A7B86AC004A9361 /* weatherData.json in Resources */,
+				A1A054612A702ADE004A9361 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A054682A702ADF004A9361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A054722A702ADF004A9361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A054552A702ADC004A9361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A054902A7B817E004A9361 /* WeatherManager.swift in Sources */,
+				A1A054982A7B873B004A9361 /* Extensions.swift in Sources */,
+				A1A0548C2A72D68B004A9361 /* Welcome.swift in Sources */,
+				A1A0545F2A702ADC004A9361 /* ContentView.swift in Sources */,
+				A1A0545D2A702ADC004A9361 /* AliWeatherAppApp.swift in Sources */,
+				A1A9B1A72A7E2CB6008F6EC5 /* WeatherRow.swift in Sources */,
+				A1A0548E2A738820004A9361 /* LoadingView.swift in Sources */,
+				A1A054942A7B868C004A9361 /* ModelData.swift in Sources */,
+				A1A054922A7B8613004A9361 /* WeatherView.swift in Sources */,
+				A1A054892A72402F004A9361 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A054662A702ADF004A9361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A0546F2A702ADF004A9361 /* AliWeatherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A054702A702ADF004A9361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A0547B2A702ADF004A9361 /* AliWeatherAppUITestsLaunchTests.swift in Sources */,
+				A1A054792A702ADF004A9361 /* AliWeatherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1A0546C2A702ADF004A9361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A054582A702ADC004A9361 /* AliWeatherApp */;
+			targetProxy = A1A0546B2A702ADF004A9361 /* PBXContainerItemProxy */;
+		};
+		A1A054762A702ADF004A9361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A054582A702ADC004A9361 /* AliWeatherApp */;
+			targetProxy = A1A054752A702ADF004A9361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1A0547C2A702ADF004A9361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1A0547D2A702ADF004A9361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1A0547F2A702ADF004A9361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AliWeatherApp/AliWeatherApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AliWeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DXFCU7BQ93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mufiq-Ali.AliWeatherApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A054802A702ADF004A9361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AliWeatherApp/AliWeatherApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AliWeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DXFCU7BQ93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mufiq-Ali.AliWeatherApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1A054822A702ADF004A9361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mufiq-Ali.AliWeatherAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliWeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AliWeatherApp";
+			};
+			name = Debug;
+		};
+		A1A054832A702ADF004A9361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mufiq-Ali.AliWeatherAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliWeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AliWeatherApp";
+			};
+			name = Release;
+		};
+		A1A054852A702ADF004A9361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mufiq-Ali.AliWeatherAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AliWeatherApp;
+			};
+			name = Debug;
+		};
+		A1A054862A702ADF004A9361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mufiq-Ali.AliWeatherAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AliWeatherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A054542A702ADC004A9361 /* Build configuration list for PBXProject "AliWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A0547C2A702ADF004A9361 /* Debug */,
+				A1A0547D2A702ADF004A9361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A0547E2A702ADF004A9361 /* Build configuration list for PBXNativeTarget "AliWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A0547F2A702ADF004A9361 /* Debug */,
+				A1A054802A702ADF004A9361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A054812A702ADF004A9361 /* Build configuration list for PBXNativeTarget "AliWeatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A054822A702ADF004A9361 /* Debug */,
+				A1A054832A702ADF004A9361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A054842A702ADF004A9361 /* Build configuration list for PBXNativeTarget "AliWeatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A054852A702ADF004A9361 /* Debug */,
+				A1A054862A702ADF004A9361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A054512A702ADC004A9361 /* Project object */;
+}
