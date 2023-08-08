@@ -10,5 +10,5 @@ Then select the iPhone as the build target in XCode and run the project.
 
 After a minute the app will then appear on your phone.
 
-<img src="Screenshots/weather.png" />
+<img src="Screenshots/weather.png" width = 250/>
 
